@@ -1,0 +1,337 @@
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
+* {
+  text-decoration: none;
+}
+
+.menu a {
+  color: #000;
+  font-weight: 300;
+}
+nav {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+ul {
+  margin: 30px auto;
+  text-align: center;
+}
+li {
+  width: 140px;
+}
+
+ .menu li{
+  font-size: 20px;
+  font-weight:lighter;
+  font-family: 'Julius Sans One', sans;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 140px;
+  height: 60px;
+  color: #FFF;
+  text-shadow: 0 0 10px #284c2d, 0 0 15px #284c2d;
+}
+
+.menu li a:hover {
+  color: white;
+}
+body {
+  font-family: "Julius Sans One", Arial, sans-serif;
+  font-size: 18px;
+}
+.about body {
+    background-color: #ccffcc;
+}
+.home body {
+    background-color:#ffcce6;
+}
+.hpimage {
+  position: fixed;
+  top: 0px;
+  right:0px;
+  z-index: 5;
+}
+.intro{
+  position: fixed;
+  top: 350px;
+  left: 200px;
+  font-size: 60px;
+  font-family: "Julius sans one", sans-serif;
+}
+.description {
+  position: relative;
+  top: 420px;
+  left: 200px;
+}
+.cta1 {
+  position: fixed;
+  top: 700px;
+  margin: 0 auto;
+  text-align: center;
+  left: 600px;
+  border-radius: 60px;
+  width: 200px;
+  line-height: 60px;
+  background-color: #96e8a2;
+}
+.cta a {
+  color: #0c4214;
+  font-weight: bold;
+}
+.about html {
+  background-color: yellow;
+}
+.me {
+  position:relative;
+  top: 30px;
+  right: -30px;
+  width: 100px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.abouttree {
+  position:relative;
+  left: 1130px;
+  top: -600px;
+  z-index: 2;
+}
+p  {
+  line-height: 1.8;
+}
+.palm1 {
+  position:relative;
+  top: -950px;
+  right: 10px;
+  z-index: 3;
+}
+
+.myself {
+  box-sizing: border-box;
+  width: 600px;
+  position: relative;
+  top: -1900px;
+  left: 500px;
+}
+.cta2 {
+  position: relative;
+  top: -1750px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 60px;
+  width: 200px;
+  line-height: 60px;
+  background-color: #96e8a2;
+  z-index:7;
+}
+.cta1 a {
+  color: #0c4214;
+  font-weight: bold;
+}
+.cta2 a:hover {
+  background: white;
+}
+
+.love {
+  position: relative;
+  font-size: 30px;
+  top: -1270px;
+  left: 300px;
+  font-family: "Open Sans"
+
+}
+.likes {
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  width: 700px;
+  top:-1250px;
+  left: 300px;
+}
+.palm2 {
+  position: relative;
+  top: -350px;
+  right:1600px;
+}
+.work {
+  position: relative;
+  top: -1700px;
+  left: 600px;
+  font-family: "Open Sans";
+  font-size: 30px;
+  text-align: left;
+}
+.expodes {
+  position: relative;
+  width: 700px;
+  top: -1700px;
+  left: 600px;
+}
+.abouttree1 {
+  position:relative;
+  left: -8px;
+  top: -2500px;
+  z-index: 7;
+}
+
+.ideaimg {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 7;
+}
+
+#contact-form {
+  top:150px;
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #BDBDBD;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 1);
+}
+
+textarea:focus:required:valid {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+textarea:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:required,
+textarea:required {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+  border-bottom: 2px dashed rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input:required:invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.expanding {
+  vertical-align: top;
+}
+
+.send-icn {
+  fill: rgba(255, 255, 255, 1)
+}
+
+.send-icn:hover {
+  fill: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
+small {
+  display: block;
+  opacity: 0;
+}
+
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+
+}
+
+.website a {
+  color: white;
+}
