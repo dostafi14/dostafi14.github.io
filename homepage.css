@@ -10,7 +10,7 @@
 nav {
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 ul {
   margin: 30px auto;
@@ -23,7 +23,7 @@ li {
  .menu li{
   font-size: 20px;
   font-weight:lighter;
-  font-family: 'Julius Sans One', sans;
+  font-family: 'Open Sans', sans;
   text-align: center;
   box-sizing: border-box;
   display: inline-block;
@@ -37,36 +37,42 @@ li {
   color: white;
 }
 body {
-  font-family: "Julius Sans One", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
 }
 .about body {
-    background-color: #ccffcc;
+    background-color: #e5fff2;
 }
 .home body {
-    background-color:#ffcce6;
+    background-color:  #ffcce6;
+}
+.contact body {
+  background-color: #ffff99;
+}
+.ideas body {
+  background-color: #cce6ff;
 }
 .hpimage {
   position: fixed;
   top: 0px;
-  right:0px;
+  left:1100px;
   z-index: 5;
 }
 .intro{
-  position: fixed;
-  top: 350px;
+  position: relative;
+  top: 150px;
   left: 200px;
   font-size: 60px;
-  font-family: "Julius sans one", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .description {
   position: relative;
-  top: 420px;
+  top: 155px;
   left: 200px;
 }
 .cta1 {
   position: fixed;
-  top: 700px;
+  top: 600px;
   margin: 0 auto;
   text-align: center;
   left: 600px;
@@ -75,16 +81,19 @@ body {
   line-height: 60px;
   background-color: #96e8a2;
 }
-.cta a {
+.cta1:hover {
+  background-color: #e6ffe6;
+}
+.cta1 .cta2 a {
   color: #0c4214;
-  font-weight: bold;
+  font-weight:lighter;
 }
 .about html {
   background-color: yellow;
 }
 .me {
   position:relative;
-  top: 30px;
+  top: 10px;
   right: -30px;
   width: 100px;
   border-radius: 50%;
@@ -102,7 +111,7 @@ p  {
 }
 .palm1 {
   position:relative;
-  top: -950px;
+  top: -1050px;
   right: 10px;
   z-index: 3;
 }
@@ -130,14 +139,14 @@ p  {
   color: #0c4214;
   font-weight: bold;
 }
-.cta2 a:hover {
+.cta2:hover {
   background: white;
 }
 
 .love {
   position: relative;
   font-size: 30px;
-  top: -1270px;
+  top: -1450px;
   left: 300px;
   font-family: "Open Sans"
 
@@ -147,7 +156,7 @@ p  {
   box-sizing: border-box;
   text-align: left;
   width: 700px;
-  top:-1250px;
+  top:-1450px;
   left: 300px;
 }
 .palm2 {
@@ -157,22 +166,29 @@ p  {
 }
 .work {
   position: relative;
-  top: -1700px;
+  top: -2000px;
   left: 600px;
   font-family: "Open Sans";
   font-size: 30px;
   text-align: left;
 }
+h3 {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 24px;
+  position: relative;
+  left: -50px;
+}
 .expodes {
   position: relative;
   width: 700px;
-  top: -1700px;
+  top: -2000px;
   left: 600px;
 }
 .abouttree1 {
   position:relative;
   left: -8px;
-  top: -2500px;
+  top: -2700px;
   z-index: 7;
 }
 
@@ -182,15 +198,25 @@ p  {
   right: 0px;
   z-index: 7;
 }
+.contactimage {
+  position: relative;
+  width: 300px;
+  top: -120px;
+  left: -10px;
+  z-index: 8;
+}
 
 #contact-form {
-  top:150px;
-  position: relative;
-  max-width: 90%;
+  top:120px;
+  position: fixed;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
-  background-color: #BDBDBD;
+  left:300px;
+  width: 900px;
+  background-color:  #ffbb33;
 }
+
 
 label {
   font-weight: 400;
